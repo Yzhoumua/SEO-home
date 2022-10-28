@@ -1,0 +1,587 @@
+.box{
+    max-width: 1170px;
+    min-width: auto;
+}
+.position{
+    position: relative;
+}
+
+
+header{
+    background-color: #fc4054;
+    line-height: 80px;
+    font-size: 14px;
+}
+header .logo{
+    position: absolute;
+    height: 90px;
+    background: #fff;
+    top: 0;
+    left: 25px;
+    z-index: 2;
+}
+header .logo img{
+    width: 75px;
+    height: 80px;
+}
+header .lf{
+    margin-left:130px;
+}
+header .lf a,header .rg a{
+    color: #fff;
+    margin: 0 20px;
+}
+header .rg{
+    margin-right: 20px;
+}
+header .rg a i::before{
+    font-weight: bold;
+    margin: 10px;
+}
+
+.lunbo{
+    overflow: hidden;
+}
+.bannerbox{
+    width: 929999px;
+    background-color: #f2f0f5;
+    padding: 30px 0;
+    overflow: hidden;
+    transition: 0.5s;
+    margin-left: 1px;
+}
+
+.bannerbox .banner{
+    width: 1903px;
+    transition: 0.5s;
+}
+.bannerbox .banner .bannerboxone{
+    width: 1903px;
+}
+.bannerbox .banner .bannerboxone .bannertextbox{
+    max-width: 535px;
+    min-width: auto;
+    margin-right: 30px;
+}
+.bannerbox .banner .bannerboxone .bannertextbox h2{
+    color: #30cec3;
+    font-size: 60px;
+    margin-top: 60px;
+}
+.bannerbox .banner .bannerboxone .bannertextbox h3{
+    font-size: 35px;
+    margin-top: 10px;
+}
+.bannerbox .banner .bannerboxone .bannertextbox .bannertext{
+    margin-top: 20px;
+    line-height: 25px;
+}
+.bannerbox .banner .bannerboxone .bannertextbox .anniubox{
+    margin-top: 40px;
+}
+.bannerbox .banner .bannerboxone .bannertextbox .anniubox button{
+    width: 195px;
+    line-height: 55px;
+    height: 55px;
+    display: inline-block;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    font-size: 16px;
+    margin-right: 20px;
+    transition: 0.3s;
+}
+.bannerbox .banner .bannerboxone .bannertextbox .anniubox button:nth-child(2){
+    background-color: #f8f8f8;
+    color: #000;
+}
+.bannerbox .banner .bannerboxone .bannertextbox .anniubox button:nth-child(2):hover{
+    background-color: #dfdfdf;
+}
+.bannerbox .banner .bannerboxone .bannertextbox .anniubox button:nth-child(2){
+    background-color: #000;
+    color: #fff;
+}
+.bannerbox .banner .bannerboxone .bannerimg{
+    margin-top: 20px;
+}
+.bannerbox .banner .bannerboxone .bannerimg img{
+    max-width: 515px;
+    min-width: auto;
+}
+.bannerbox .anlf,.bannerbox .anrg{
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    position: absolute;
+    background: #30cec3;
+    text-align: center;
+    line-height: 50px;
+    transition: 0.3s;
+}
+.bannerbox .anlf i::before,.bannerbox .anrg i::before{
+    color: #fff;
+    font-size: 30px;
+    transition: 0.3s;
+}
+.bannerbox .anlf{
+    bottom: 0;
+    left: 0;
+}
+.bannerbox .anrg{
+    right: 0;
+    bottom: 0;
+}
+.bannerbox .anlf:hover,.bannerbox .anrg:hover{
+    background: #fff;
+}
+
+.bannerbox .anlf:hover i::before,.bannerbox .anrg:hover i::before{
+    color: #000;
+}
+
+.aboutbox{
+    padding: 40px 0;
+}
+.aboutbox .about .aboutlf{
+    margin-right: 30px;
+    margin-left:40px;
+}
+.aboutbox .about .aboutlf img{
+    max-width: 550px;
+    min-width: auto;
+    
+}
+.aboutbox .about .aboutrg{
+    max-width: 478px;
+    min-width: auto;
+    margin-top: 40px;
+}
+.aboutbox .about .aboutrg h3{
+    color: #30cec3;
+    font-size: 30px;
+}
+.aboutbox .about .aboutrg h2{
+    font-size: 35px;
+    max-width: 400px;
+    min-width: auto;
+}
+.aboutbox .about .aboutrg .abouttext{
+    color: #999;
+    font-size: 14px;
+    margin-top: 20px;
+    line-height: 28px;
+}
+.aboutbox .about .aboutrg p button{
+    width: 195px;
+    line-height: 55px;
+    height: 55px;
+    display: inline-block;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    font-size: 16px;
+    margin-right: 20px;
+    transition: 0.3s;
+    color: #fff;
+    background: #000;
+    margin-top: 40px;
+}
+.antiaolf,.antiaorg{
+    width: 4px;
+    height: 100px;
+    background: #30cec3;
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto 0;
+}
+.antiaolf{
+    left: 0;
+}
+.antiaorg{
+    right:0;
+}
+
+.xmbox{
+    padding: 40px 0;
+}
+.xmbox .xm{
+    text-align: center;
+}
+.xmbox .xm h2{
+    color: #30cec3;
+    font-size: 30px;
+    margin-bottom: 5px;
+}
+.xmbox .xm h3{
+    font-size: 25px;
+}
+.xmbox .xm .xmcont{
+    margin-top: 50px;
+}
+.xmbox .xm .xmcont .xmlf1{
+    width: 320px;
+    min-width: auto;
+    margin-right: 100px;
+}
+.xmbox .xm .xmcont .xmlf1 .xmlf1cont{
+    margin-bottom:130px;
+}
+.xmbox .xm .xmcont .xmlf1 .xmlf1cont .xmlf1contimg{
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    margin: 0 auto;
+    background: #30cec3;
+}
+.xmbox .xm .xmcont .xmlf1 .xmlf1cont .xmlf1contimg img{
+    max-width: 50px;
+    margin-top: 12px;
+}
+.xmbox .xm .xmcont .xmlf1 .xmlf1cont p:nth-child(2){
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 10px;
+}
+.xmbox .xm .xmcont .xmlf1 .xmlf1cont p:nth-child(3){
+    color: rgb(12, 12, 12);
+    font-size: 14px;
+    margin-top: 10px;
+}
+.xmbox .xm .xmcont .xmlf2{
+    width: 320px;
+    min-width: auto;
+    margin-top: 100px;
+    margin-right: 100px;
+}
+.xmbox .xm .xmcont .xmlf2 .xmlf2cont .xmlf2contimg{
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    margin: 0 auto;
+    background: #30cec3;
+}
+.xmbox .xm .xmcont .xmlf2 .xmlf2cont .xmlf2contimg img{
+    max-width: 50px;
+    margin-top: 12px;
+}
+.xmbox .xm .xmcont .xmlf2 .xmlf2cont p:nth-child(2){
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 10px;
+}
+.xmbox .xm .xmcont .xmlf2 .xmlf2cont p:nth-child(3){
+    color: rgb(12, 12, 12);
+    font-size: 14px;
+    margin-top: 10px;
+}
+.xmbox .xm .xmcont .xmlf2 .xmlf2cont p button{
+    width: 195px;
+    line-height: 55px;
+    height: 55px;
+    display: inline-block;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    font-size: 16px;
+    margin-right: 20px;
+    transition: 0.3s;
+    color: #fff;
+    background: #000;
+    margin: 0 auto;
+    margin-top: 60px;
+}
+.xmbox .xm .xmcont .xmlf3{
+    width: 320px;
+    min-width: auto;
+}
+.xmbox .xm .xmcont .xmlf3 .xmlf3cont{
+    margin-bottom:130px;
+}
+.xmbox .xm .xmcont .xmlf3 .xmlf3cont .xmlf3contimg{
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    margin: 0 auto;
+    background: #30cec3;
+}
+.xmbox .xm .xmcont .xmlf3 .xmlf3cont .xmlf3contimg img{
+    max-width: 50px;
+    margin-top: 12px;
+}
+.xmbox .xm .xmcont .xmlf3 .xmlf3cont p:nth-child(2){
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 10px;
+}
+.xmbox .xm .xmcont .xmlf3 .xmlf3cont p:nth-child(3){
+    color: rgb(12, 12, 12);
+    font-size: 14px;
+    margin-top: 10px;
+}
+.xmbox .xm .xmcont .xmlf1 .xmlf1cont:hover .xmlf1contimg,.xmbox .xm .xmcont .xmlf2 .xmlf2cont:hover .xmlf2contimg,.xmbox .xm .xmcont .xmlf3 .xmlf3cont:hover .xmlf3contimg{
+    background-color: #fc4054;
+}
+
+
+.paybox{
+    padding: 40px 0;
+    background: linear-gradient(116deg, transparent 25%, #fc4054 25%)
+}
+.paybox .pay .paylf {
+    margin-right: 30px;
+}
+.paybox .pay .paylf img{
+    max-width: 555px;
+}
+.paybox .pay .payrg{
+    color: #fff;
+    max-width: 540px;
+}
+.paybox .pay .payrg h2{
+    font-size: 30px;
+    margin-top: 60px;
+}
+.paybox .pay .payrg .paytext{
+    font-size: 14px;
+    line-height: 28px;
+    margin-top: 20px;
+}
+.paybox .pay .payrg p button{
+    width: 195px;
+    line-height: 55px;
+    height: 55px;
+    display: inline-block;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    font-size: 16px;
+    margin-right: 20px;
+    transition: 0.3s;
+    color: #fff;
+    background: #000;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+
+
+.xuanbox{
+    padding: 40px 0;
+    text-align: center;
+}
+.xuanbox .xuan h2{
+    font-size: 30px;
+    color: #30cec3;
+}
+.xuanbox .xuan h3{
+    font-size: 16px;
+    color: #999;
+    font-weight: normal;
+    margin-top: 10px;
+}
+.xuanbox .xuan .xuantext{
+    max-width: 1050px;
+    margin: 0 auto;
+    min-width: auto;
+    border: 1px dotted #000;
+    padding: 40px;
+    box-sizing: border-box;
+    margin-top: 60px;
+}
+.xuanlf,.xuanrg{
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    background: #ffffff;
+    text-align: center;
+    line-height: 50px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto 0;
+    cursor: pointer;
+    border: 50%;
+}
+.xuanlf{
+    left:10px;
+}
+.xuanrg{
+    right: 10px;
+}
+.xuanlf i::before,.xuanrg i::before{
+    color: #30cec3;
+    font-size:40px;
+    font-weight: bold;
+}
+.xuanbox .xuan .xuantext .xuantextone.xuandisplay{
+    display: block;
+}
+.xuanbox .xuan .xuantext .xuantextone{
+    padding: 0 20px;
+    margin-top: 20px;
+    font-size: 14px;
+    color: #999;
+    line-height: 25px;
+    display: none;
+}
+.xuanbox .xuan .xuantext .yingyong{
+    margin-top: 10px;
+}
+.xuanbox .xuan .xuantext .yingyong i::before{
+    font-size: 30px;
+    font-weight: bold;
+    color: #30cec3;
+}
+
+.yjbox{
+    padding: 40px 0;
+}
+.yjbox .yj .yjlf{
+    margin-right: 30px;
+}
+.yjbox .yj .yjlf h2{
+    color: #30cec3;
+    font-size: 30px;
+}
+.yjbox .yj .yjlf p{
+   margin-top: 20px;
+}
+.yjbox .yj .yjlf p input:focus{
+    outline: none;
+}
+.yjbox .yj .yjlf p input{
+    width: 510px;
+    height: 50px;
+    line-height: 50px;
+    font-size: 16px;
+    box-sizing: border-box;
+    padding-left: 10px;
+    border: 1px solid #b0b0b0;
+}
+.yjbox .yj .yjlf p textarea:focus{
+    outline: none;
+}
+.yjbox .yj .yjlf p  button{
+    width: 170px;
+    text-align: center;
+    line-height: 55px;
+    height: 55px;
+    background: #fb0e27;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+}
+.yjbox .yj .yjlf p textarea{
+    width: 510px;
+    text-indent: 1em;
+    font-size: 16px;
+    resize: none;
+    padding-top: 10px;
+    box-sizing: border-box;
+    border: 1px solid #b0b0b0;
+}
+.yjbox .yj .yjrg h2{
+    color: #30cec3;
+    font-size: 30px;
+}
+.yjbox .yj .yjrg .yjtext{
+    max-width: 510px;
+    min-width: auto;
+    font-size: 14px;
+    line-height: 25px;
+}
+.yjbox .yj .yjrg p{
+    margin-top: 20px;
+}
+.yjbox .yj .yjrg p input:focus{
+    outline: none;
+}
+.yjbox .yj .yjrg p input{
+    width: 510px;
+    height: 50px;
+    line-height: 50px;
+    font-size: 16px;
+    box-sizing: border-box;
+    padding-left: 10px;
+    border: 1px solid #b0b0b0;
+}
+.yjbox .yj .yjrg p button{
+    width: 510px;
+    text-align: center;
+    line-height: 55px;
+    height: 50px;
+    background: #30cec3;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+}
+.yjbox .yj .yjrg p button:hover{
+    background: #2bbdb3;
+}
+.yjbox .yj .yjlf p  button:hover{
+    background: #e90d23
+}
+footer{
+    padding:40px 0;
+    background: #252525;
+    color: #fff;
+}
+footer .footlx{
+    max-width: 806px;
+    margin: 0 auto;
+}
+footer .footlx .footlxbox{
+  margin:0 80px;
+}
+footer .footlx .footlxbox p:nth-child(1) i::before{
+    font-size: 40px;
+    color: #30cec3;
+}
+footer .footlx .footlxbox p:nth-child(2){
+    font-size: 24px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+footer .footlx .footlxbox p:nth-child(3) a{
+    color: #fff;
+    font-size: 14px;
+    margin-top: 10px;
+}
+footer .lxappbox{
+    max-width: 460px;
+    margin: 0 auto;
+    margin-top: 60px;
+    border-top: 1px solid #30cec3;
+}
+footer .lxappbox .lxfsnav{
+    max-width: 350px;
+    margin: 30px auto;
+}
+footer .lxappbox .lxfsnav span a{
+    color: #fff;
+    margin: 0 25px;
+    font-size: 12px;
+    font-weight: bold;
+}
+footer .lxappbox .lxapp{
+    max-width: 186px;
+    margin: 40px auto;
+}
+footer .lxappbox .lxapp a i::before{
+    color: #fff;
+    font-size: 20px;
+    margin: 0 14px;
+    transition: 0.3s;
+}
+footer .lxappbox .lxapp a:hover i::before{
+    color: #fc4054;
+}
+footer p{
+    text-align: center;
+}
